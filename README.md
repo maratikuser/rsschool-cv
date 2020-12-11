@@ -1,2 +1,2 @@
 # rsschool-cv
-# [link](https://your-github-account.github.io/rsschool-cv/cv)
+# [link](https://maratikuser.github.io/rsschool-cv/cv)
