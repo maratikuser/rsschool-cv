@@ -1,0 +1,35 @@
+body {
+   max-width: 1024px;
+   background-image: url(werecat.jpg) ;
+   background-size: 100%;
+ }
+ 
+ a {
+  color: rgb(0, 0, 0); /* Цвет текста */
+  background: rgb(255, 255, 255); /* Цвет фона */
+  padding: 2px; /* Поля вокруг текста */
+  transition: 0.2s linear; /* Время изменения */
+ }
+ a:hover {
+  color: rgb(0, 0, 0); /* Цвет текста */
+  background: rgb(108, 213, 255); /* Цвет фона */
+ }
+
+ .objective {
+  background: #c9c9c9; /* Цвет фона под заголовком */
+  color: rgb(0, 0, 0); /* Цвет текста */
+ }
+ 
+ .bq {
+   background: rgb(187, 223, 247);
+ }
+
+ ul {
+   color: rgb(0, 148, 247);
+ }
+
+ .photo {
+   width: 200px;
+   height: 200px;
+   border: 10px;
+ }
