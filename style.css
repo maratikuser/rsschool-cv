@@ -5,19 +5,19 @@ body {
  }
  
  a {
-  color: rgb(0, 0, 0); /* Цвет текста */
-  background: rgb(255, 255, 255); /* Цвет фона */
-  padding: 2px; /* Поля вокруг текста */
-  transition: 0.2s linear; /* Время изменения */
+  color: rgb(0, 0, 0); 
+  background: rgb(255, 255, 255); 
+  padding: 2px; 
+  transition: 0.2s linear;
  }
  a:hover {
-  color: rgb(0, 0, 0); /* Цвет текста */
-  background: rgb(108, 213, 255); /* Цвет фона */
+  color: rgb(0, 0, 0); 
+  background: rgb(108, 213, 255); 
  }
 
  .objective {
-  background: #c9c9c9; /* Цвет фона под заголовком */
-  color: rgb(0, 0, 0); /* Цвет текста */
+  background: #c9c9c9; 
+  color: rgb(0, 0, 0); 
  }
  
  .bq {
