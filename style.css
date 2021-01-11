@@ -1,36 +1,99 @@
+
 body {
-   max-width: 1024px;
-   background-image: url(werecat.jpg) ;
-   background-size: 100%;
-   margin: 0 auto;
- }
- 
- a {
-  color: rgb(0, 0, 0); 
-  background: rgb(255, 255, 255); 
-  padding: 2px; 
-  transition: 0.2s linear;
- }
- a:hover {
-  color: rgb(0, 0, 0); 
-  background: rgb(108, 213, 255); 
- }
-
- .objective {
-  background: #c9c9c9; 
-  color: rgb(0, 0, 0); 
- }
- 
- .aboutMe {
-   background: rgb(187, 223, 247);
- }
-
+  max-width: 1024px;
+  background-color: blanchedalmond ;
+  font-family: "Roboto", "Minion Pro", Palatino, Georgia, serif;
+    margin: 0 auto;
+ padding: 40px 40px 20px 40px;
+}
+header {
+ width: 100%;
+ padding-bottom: 24px;
+ border-bottom: 1px #c7c7c7 solid;
+ text-align: center;
+}
+h3, header {
+   font-family: "Comfortaa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+ color: rgb(0, 0, 0); 
+ background: rgb(247, 221, 172); 
+ padding: 1px; 
+ transition: 0.2s linear; 
+}
+a:hover {
+ color: rgb(0, 0, 0);
+ background: rgb(108, 213, 255); 
+}
+.objective {
+ background: #fff1df; 
+ padding: 7px; 
+}
  ul {
-   color: rgb(0, 148, 247);
+  color: rgb(0, 148, 247);
+}
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+}
+.contacts {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-decoration: none;
+ font-size: 16px;
+ margin: 10px 0;
+}
+.right-column{
+ width: 30%;
+}
+.left-column {
+ width: 70%;
+}
+.main-info {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
  }
-
- .photo {
-   width: 200px;
-   height: 200px;
-   border: 10px;
+@media (max-width: 350px) {
+ .main-info {
+   flex-direction: column;
  }
+ .right-column {
+   order: 1;
+ }
+ .left-column {
+   order: 2;
+ }
+}
+@media (min-width: 350px) {
+ .main-info {
+   flex-direction: column;
+ }
+ .right-column {
+   order: 1;
+ }
+ .left-column {
+   order: 2;
+ }
+}
+@media (min-width: 480px) {
+   .main-info {
+   flex-direction: row;
+ }
+ .right-column {
+   padding-right: 20px;
+ }
+ .right-column {
+   order: 2;
+ }
+ .left-column {
+   order: 1;
+ }
+}
+@media (min-width: 768px) {
+ .main-info {
+   flex-direction: row;
+ }
+}
