@@ -2,40 +2,40 @@
 body {
   max-width: 1024px;
   background-color: blanchedalmond ;
-  font-family: "Roboto", "Minion Pro", Palatino, Georgia, serif;
+  font-family: "Roboto", "Minion Pro", Palatino, Georgia, Arial, serif;
     margin: 0 auto;
- padding: 40px 40px 20px 40px;
-}
+ padding: 40px;
+  }
 header {
- width: 100%;
  padding-bottom: 24px;
- border-bottom: 1px #c7c7c7 solid;
+ border-bottom: 1px black solid;
  text-align: center;
 }
 h3, header {
    font-family: "Comfortaa", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 a {
+  margin: 10px;
  color: rgb(0, 0, 0); 
- background: rgb(247, 221, 172); 
- padding: 1px; 
- transition: 0.2s linear; 
+ border-radius: 5px;
+  box-shadow: 0 1px 5px blue;
 }
 a:hover {
- color: rgb(0, 0, 0);
- background: rgb(108, 213, 255); 
+box-shadow: inset 0 1px 20px red;
 }
 .objective {
  background: #fff1df; 
  padding: 7px; 
 }
  ul {
-  color: rgb(0, 148, 247);
+  color: rgb(66, 66, 128);
+  line-height: 25px;
 }
 .photo {
   width: 200px;
   height: 200px;
   border-radius: 10%;
+  box-shadow: 0 3px 20px;
 }
 .contacts {
  display: flex;
